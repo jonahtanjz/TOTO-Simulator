@@ -9,6 +9,7 @@ function simulate() {
 	    n[p] = parseInt(n[p],10);
 	}
 	var sim = document.getElementById('sim').value;
+	sim = parseInt(sim,10);
 	var lot = [];
 	var divv = document.getElementById("result");
 
