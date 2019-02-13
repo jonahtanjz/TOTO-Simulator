@@ -18,7 +18,7 @@ function simulate() {
     }
 	var g1=0, g2=0, g3=0, g4=0, g5=0, g6=0, g7 = 0;
     
-    for (let m=0; m<sim; m++)
+    for (let m=1; m<(sim+1); m++)
     {
 	
 	var c = 0, a = 0;
@@ -61,7 +61,7 @@ function simulate() {
     {
 		g1 = g1 + 1;
 		let para = document.createElement("p");
-        para.appendChild(document.createTextNode("WIN 1 at " + m+1 +"\n"));
+        para.appendChild(document.createTextNode("WIN 1 at " + m +"\n"));
         divv.appendChild(para);
     }
 
@@ -69,7 +69,7 @@ function simulate() {
     {
         g2 = g2 + 1;
         let para = document.createElement("p");
-        para.appendChild(document.createTextNode("WIN 2 at " + m+1 +"\n"));
+        para.appendChild(document.createTextNode("WIN 2 at " + m +"\n"));
         divv.appendChild(para);
     }
 
@@ -77,7 +77,7 @@ function simulate() {
     {
         g3 = g3 + 1;
         let para = document.createElement("p");
-        para.appendChild(document.createTextNode("WIN 3 at " + m+1 +"\n"));
+        para.appendChild(document.createTextNode("WIN 3 at " + m +"\n"));
         divv.appendChild(para);
     }
 
@@ -85,7 +85,7 @@ function simulate() {
     {
         g4 = g4 + 1;
         let para = document.createElement("p");
-        para.appendChild(document.createTextNode("WIN 4 at " + m+1 +"\n"));
+        para.appendChild(document.createTextNode("WIN 4 at " + m +"\n"));
         divv.appendChild(para);
     }
 
@@ -93,7 +93,7 @@ function simulate() {
     {
         g5 = g5 + 1;
         let para = document.createElement("p");
-        para.appendChild(document.createTextNode("WIN 5 at " + m+1 +"\n"));
+        para.appendChild(document.createTextNode("WIN 5 at " + m +"\n"));
         divv.appendChild(para);
     }
 
@@ -101,7 +101,7 @@ function simulate() {
     {
         g6 = g6 + 1;
         let para = document.createElement("p");
-        para.appendChild(document.createTextNode("WIN 6 at " + m+1 +"\n"));
+        para.appendChild(document.createTextNode("WIN 6 at " + m +"\n"));
         divv.appendChild(para);
     }
 
@@ -109,14 +109,14 @@ function simulate() {
     {
         g7 = g7 + 1;
         let para = document.createElement("p");
-        para.appendChild(document.createTextNode("WIN 7 at " + m+1 +"\n"));
+        para.appendChild(document.createTextNode("WIN 7 at " + m +"\n"));
         divv.appendChild(para);
     }
 
     else
     {
         let para = document.createElement("p");
-        para.appendChild(document.createTextNode("LOSE at " + m+1 +"\n"));
+        para.appendChild(document.createTextNode("LOSE at " + m +"\n"));
         divv.appendChild(para);
     }
 
